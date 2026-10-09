@@ -37,22 +37,44 @@ public class Task
         get {return _createdAt;}
     }
 
+    public override string ToString()
+    {
+        return $"""
+            [task name]: {_taskName};
+            [task description]: {_taskDescription};
+            [created at]: {_createdAt}
+        """;
+    }
+
 }
 
 public class Program{
-    
+
     static void Main(string[] args)
     {
+
+        List<Task> taskData = new List<Task>();
+
+        Console.Write("Type list name: ");
+        string name = Console.ReadLine();
         
-        Task task = new Task("Escrever", "Escrever livro");
+        Console.Write("\nType list description: ");
+        string descr = Console.ReadLine();
+
+        Task myTask = CreateNewToDo(name, descr, taskData);
+
+        Console.WriteLine(myTask.ToString());
 
 
-        Console.WriteLine(task.TaskName);
-        Console.WriteLine(task.TaskDescription);
-        Console.WriteLine(task.IsCompleted);
-        Console.WriteLine(task.CreatedAt);
+        static Task CreateNewToDo(string taskName, string taskDescr, List<Task> taskData)
+        {
+            Task task = new Task(taskName, taskDescr);
 
+            taskData.Add(task);
+
+            return task;
+
+        }
 
     }
-
 }

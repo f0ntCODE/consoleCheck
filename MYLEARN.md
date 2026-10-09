@@ -20,3 +20,6 @@ Neste projeto estou criando classes em um só arquivo (junto com o ``Main``) por
 - *Properties*: São métodos que controlam acesso, consulta e modificação da respectiva *field*, mas podem existir sem elas.
   - Convenção: *PascalCase*;
   - Modificador típico: *public*
+
+### Palavra-chave *Override*
+Diferentemente do java, que usamos uma notação ``@Override``, no C# declaramos explicitamente a palavra ``Override`` na declaração do método, como no ``ToString()`` personalizado que criei na classe ``Task``.
