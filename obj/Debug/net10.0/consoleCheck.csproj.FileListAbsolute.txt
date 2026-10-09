@@ -1,0 +1,15 @@
+/home/font/projects/c_sharp/consoleCheck/obj/Debug/net10.0/consoleCheck.GeneratedMSBuildEditorConfig.editorconfig
+/home/font/projects/c_sharp/consoleCheck/obj/Debug/net10.0/consoleCheck.AssemblyInfoInputs.cache
+/home/font/projects/c_sharp/consoleCheck/obj/Debug/net10.0/consoleCheck.AssemblyInfo.cs
+/home/font/projects/c_sharp/consoleCheck/obj/Debug/net10.0/consoleCheck.csproj.CoreCompileInputs.cache
+/home/font/projects/c_sharp/consoleCheck/obj/Debug/net10.0/consoleCheck.sourcelink.json
+/home/font/projects/c_sharp/consoleCheck/main/consoleCheck
+/home/font/projects/c_sharp/consoleCheck/main/consoleCheck.deps.json
+/home/font/projects/c_sharp/consoleCheck/main/consoleCheck.runtimeconfig.json
+/home/font/projects/c_sharp/consoleCheck/main/consoleCheck.dll
+/home/font/projects/c_sharp/consoleCheck/main/consoleCheck.pdb
+/home/font/projects/c_sharp/consoleCheck/obj/Debug/net10.0/consoleCheck.dll
+/home/font/projects/c_sharp/consoleCheck/obj/Debug/net10.0/refint/consoleCheck.dll
+/home/font/projects/c_sharp/consoleCheck/obj/Debug/net10.0/consoleCheck.pdb
+/home/font/projects/c_sharp/consoleCheck/obj/Debug/net10.0/consoleCheck.genruntimeconfig.cache
+/home/font/projects/c_sharp/consoleCheck/obj/Debug/net10.0/ref/consoleCheck.dll
