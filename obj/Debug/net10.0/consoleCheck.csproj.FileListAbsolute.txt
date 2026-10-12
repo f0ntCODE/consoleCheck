@@ -13,3 +13,8 @@
 /home/font/projects/c_sharp/consoleCheck/obj/Debug/net10.0/consoleCheck.pdb
 /home/font/projects/c_sharp/consoleCheck/obj/Debug/net10.0/consoleCheck.genruntimeconfig.cache
 /home/font/projects/c_sharp/consoleCheck/obj/Debug/net10.0/ref/consoleCheck.dll
+/home/font/projects/c_sharp/consoleCheck/bin/Debug/net10.0/consoleCheck
+/home/font/projects/c_sharp/consoleCheck/bin/Debug/net10.0/consoleCheck.deps.json
+/home/font/projects/c_sharp/consoleCheck/bin/Debug/net10.0/consoleCheck.runtimeconfig.json
+/home/font/projects/c_sharp/consoleCheck/bin/Debug/net10.0/consoleCheck.dll
+/home/font/projects/c_sharp/consoleCheck/bin/Debug/net10.0/consoleCheck.pdb

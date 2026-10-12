@@ -61,9 +61,17 @@ public class Program{
         Console.Write("\nType list description: ");
         string descr = Console.ReadLine();
 
-        Task myTask = CreateNewToDo(name, descr, taskData);
+        CreateNewToDo(name, descr, taskData);
 
-        Console.WriteLine(myTask.ToString());
+        Console.WriteLine("\n Consulting list by index: " + taskData[0]);
+
+        EditToDo(0, "New name fo task", "New task description", taskData);
+
+        Console.WriteLine("\n Task with new info: " + taskData[0]);
+
+        DeleteToDo(0, taskData);
+
+        Console.WriteLine("Task deleted");
 
 
         static Task CreateNewToDo(string taskName, string taskDescr, List<Task> taskData)
@@ -74,6 +82,30 @@ public class Program{
 
             return task;
 
+        }
+
+        static Task EditToDo(int index, string? newName, string? taskDescr, List<Task> taskData)
+        {
+            Task task = taskData[index];
+
+            if (!newName.Equals(""))
+            {
+                task.TaskName = newName;
+            }
+            if (!taskDescr.Equals(""))
+            {
+                task.TaskDescription = taskDescr;
+            }
+
+            return task;
+            
+        }
+
+        static void DeleteToDo(int index, List<Task> taskData)
+        {
+            Task task = taskData[index];
+            taskData.Remove(task);
+            
         }
 
     }
