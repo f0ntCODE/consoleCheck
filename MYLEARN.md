@@ -23,3 +23,7 @@ Neste projeto estou criando classes em um só arquivo (junto com o ``Main``) por
 
 ### Palavra-chave *Override*
 Diferentemente do java, que usamos uma notação ``@Override``, no C# declaramos explicitamente a palavra ``Override`` na declaração do método, como no ``ToString()`` personalizado que criei na classe ``Task``.
+
+
+## Uso de dicionário
+A lista dinâmica *Dictionary* é uma estrutura de dados que trabalho com pares de chave-valor, que é muito útil para fazer buscas rápidas através da chave que representa o valor. Seu funcionamento lembra o de um banco de dados, onde a **chave** é o **ID** e o **valor** é o **conteúdo da tabela** representando por esse ID.

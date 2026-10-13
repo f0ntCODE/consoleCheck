@@ -40,9 +40,9 @@ namespace task
         public override string ToString()
         {
             return $"""
-            [task name]: {_taskName};
+            [task name]:        {_taskName};
             [task description]: {_taskDescription};
-            [created at]: {_createdAt}
+            [created at]:       {_createdAt}
         """;
         }
 

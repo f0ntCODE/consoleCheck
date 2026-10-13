@@ -1,16 +1,22 @@
+using consoleCheck.Interactions;
+
 namespace interaction
 {
     public class Menu
     {
+        private ToDoService service = new ToDoService();
         public void MainMenu()
         {
 
-            Console.WriteLine("""
+            while (true)
+            {
+
+                Console.WriteLine("""
          |WELLCOME TO THE
                         ULTIMATE CONSOLECHECK!|
          """);
 
-            Console.WriteLine("""
+                Console.WriteLine("""
                 Choose an option below
 
                 1) Create a task;
@@ -19,21 +25,22 @@ namespace interaction
 
             """);
 
-            int option = GetUserInput();
+                int option = GetUserInput();
 
-            if (option == 1)
-            {
-                
-            }
-            else if (option == 2)
-            {
-                
-            }
-            else if (option == 3)
-            {
-                
-            }
+                if (option == 1)
+                {
+                    service.NewToDo();
+                }
+                else if (option == 2)
+                {
+                    service.listAllToDos();
+                }
+                else if (option == 3)
+                {
+                    break;
+                }
 
+            }
         }
 
         private static int GetUserInput()
@@ -52,7 +59,7 @@ namespace interaction
                 }
                 else
                 {
-                 return optionConverted;   
+                    return optionConverted;
                 }
             }
 
